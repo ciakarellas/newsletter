@@ -1,0 +1,178 @@
+* {
+    font-family: monospace, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: #1a1b1e;
+    
+}
+header {
+    margin: 60px 10px 150px 0;
+}
+
+.logo{
+    font-size: 24px;
+}
+.btn-wider {
+    padding: 5px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.btn-wider-main {
+    padding: 10px 80px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.btn-wider-final {
+  margin-top: 40px;
+}
+
+.typed-cursor {
+    opacity: 1;
+    padding-bottom: 15px;
+}
+.hero {
+    font-size: 50px;
+    line-height: 120%;  
+}
+
+.first-lead {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 12px;
+}
+
+.second-lead{
+  border-top: 1px solid hsla(0, 0%, 100%, .2);
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding-top: 100px;
+}
+
+.slogan{
+    font-size: 18px;
+    letter-spacing: -.01em;
+    line-height: 160%;
+}
+
+.typed-cursor--blink {
+    -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+  }
+  
+  @-webkit-keyframes blink {
+    from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+  }
+  
+  @-ms-keyframes blink {
+    from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+  }
+  
+  @-o-keyframes blink {
+    from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+  }
+.promises-container{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.promises-row {
+  border-top: 1px solid hsla(0, 0%, 100%, .2);
+  margin-top: 70px;
+  margin-bottom: 40px;
+  padding-top: 12px;
+}
+.promises-text{
+  padding-top: 30px;
+}
+
+.about-me {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+@media screen and (max-width: 767px) {
+    .logo {
+      justify-content: center;
+    }
+    header{
+        margin: 40px 0;
+    }
+    .hero {
+        
+        font-size: 40px;
+        line-height: 120%;
+    }
+    .slogan {
+        margin: 30px 0;
+        font-size: 14px;
+    }
+    .first-lead {
+      margin-top: 20px;
+      margin-bottom: 70px;
+      padding-top: 12px;
+  }
+  .promises-container {
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+  .btn-wider-main {
+    padding: 10px 60px;
+    margin-top: 40px;
+    margin-bottom: 1px;
+  }
+  .about-me {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .photo{
+    margin-bottom: 40px;
+  }
+  }
