@@ -138,6 +138,13 @@ header {
   margin-top: 120px;
   margin-bottom: 120px;
 }
+
+.modal-content-black{
+  background-color: #1a1b1e;
+}
+.modal-close-btn{
+  color: azure;
+}
 @media screen and (max-width: 767px) {
     .logo {
       justify-content: center;
