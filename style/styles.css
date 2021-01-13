@@ -145,6 +145,10 @@ header {
 .modal-close-btn{
   color: azure;
 }
+
+#thankYouRedirect{
+  margin-top: 15px;
+}
 @media screen and (max-width: 767px) {
     .logo {
       justify-content: center;
