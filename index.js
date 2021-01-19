@@ -25,6 +25,7 @@ $('#form').submit(function (event) {
           });*/
         console.log(request)
         clearInputs('inputEmail', 'inputName');
+        redirectTo('./pages/thank_you_page.html');
         
         
         $('#newsletterForm').modal('hide')
@@ -37,4 +38,8 @@ function clearInputs(firstInpuId, secondInputId){
     document.getElementById(firstInpuId).value=null;
     document.getElementById(secondInputId).value='';
 
+}
+
+function redirectTo(url){
+  location.href = url;
 }
